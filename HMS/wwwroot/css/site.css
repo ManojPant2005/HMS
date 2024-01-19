@@ -18,10 +18,6 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
 .content {
     padding-top: 1.1rem;
 }
@@ -66,3 +62,107 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.registerbtn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    filter: grayscale(100%)
+}
+
+.link-btn {
+    font-size: 0.8rem !important;
+    color: blue !important;
+}
+
+    .link-btn:hover {
+        font-size: 0.8rem !important;
+        color: #2e2ef3 !important;
+        text-decoration: underline !important;
+    }
+
+.loader-container {
+}
+
+.ring {
+    width: 200px;
+    height: 200px;
+    border: 0px solid #000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+    .ring:nth-child(1) {
+        border-bottom-width: 8px;
+        border-color: rgb(255, 255, 255);
+        animation: rotate1 2s linear infinite;
+        -webkit-animation: rotate1 2s linear infinite;
+    }
+
+    .ring:nth-child(2) {
+        border-right-width: 8px;
+        border-color: rgb(248, 95, 7);
+        animation: rotate2 2s linear infinite;
+        -webkit-animation: rotate2 2s linear infinite;
+    }
+
+    .ring:nth-child(3) {
+        border-top-width: 8px;
+        border-color: rgb(18, 240, 40);
+        animation: rotate3 2s linear infinite;
+        -webkit-animation: rotate3 2s linear infinite;
+    }
+
+.loading {
+    color: #2acaff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate3 {
+    0% {
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
+.Profile {
+    position: absolute;
+    bottom: 0%;
+    width: inherit;
+}
+
+.profile-name-single {
+    font-weight: bolder !important;
+    border: 2px solid #fff !important;
+    border-radius: 50% !important;
+    padding: 10px !important;
+    font-size: 1.8rem !important;
+    color: #fff !important;
+}
+
+.profile-name {
+    color: #fff !important;
+    font-weight: bolder !important;
+}

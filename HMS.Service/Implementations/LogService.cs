@@ -3,7 +3,7 @@ using log4net;
 
 namespace HMS.Service.Implementations
 {
-    public class LogService : ILoginService
+    public class LogService : ILogService
     {
         #region Fields
         private readonly ILog _error;
