@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HMS.Model.DatabaseModel
 {
-    [Table(name: "Department", Schema = "public")]
+    [Table(name: "Department")]
     public class Department
     {
         [Key]
