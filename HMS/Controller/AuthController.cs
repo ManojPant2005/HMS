@@ -1,4 +1,5 @@
-﻿using HMS.Model.DatabaseModel;
+﻿using HMS.Helper;
+using HMS.Model.DatabaseModel;
 using HMS.Model.Request;
 using HMS.Model.Response;
 using HMS.Service.Interfaces;

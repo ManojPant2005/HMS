@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS", "HMS\HMS.csproj", "{89BED0C8-E6BD-4D31-BF09-4EFF3E51079E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS", "HMS\HMS.csproj", "{89BED0C8-E6BD-4D31-BF09-4EFF3E51079E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Infrastructure", "HMS.Infrastructure\HMS.Infrastructure.csproj", "{ED209A9E-1C0D-4D29-B107-274EB7CD038A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Infrastructure", "HMS.Infrastructure\HMS.Infrastructure.csproj", "{ED209A9E-1C0D-4D29-B107-274EB7CD038A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Model", "HMS.Model\HMS.Model.csproj", "{1ED0C505-7056-4924-94AE-6794955A2F34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Model", "HMS.Model\HMS.Model.csproj", "{1ED0C505-7056-4924-94AE-6794955A2F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Service", "HMS.Service\HMS.Service.csproj", "{89C51007-833C-4884-9597-C3D6A2B95D66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMS.Service", "HMS.Service\HMS.Service.csproj", "{89C51007-833C-4884-9597-C3D6A2B95D66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
